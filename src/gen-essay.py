@@ -1,4 +1,5 @@
 import csv
+import os
 import requests
 import json
 
@@ -11,7 +12,7 @@ def generate_essay(prompt, model="gpt-4-1106-preview"):
     :param max_tokens: The maximum number of tokens to generate.
     :return: The generated essay as a string.
     """
-    api_key = ""  # Replace with your actual API key
+    api_key = os.environ.get("OPENAI_API_KEY")
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"

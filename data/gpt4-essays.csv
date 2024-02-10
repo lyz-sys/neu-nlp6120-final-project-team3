@@ -1,4 +1,4 @@
-id,prompt_id,text
+id,prompt_id,essay
 1,1,"[Your Name]
 [Your Address]
 [City, State, ZIP Code]
@@ -8773,4 +8773,6 @@ Thank you for considering my viewpoint.
 Sincerely,
 
 [Your Name]"
+id,prompt_id,text
+id,prompt_id,text
 id,prompt_id,text
